@@ -11,6 +11,6 @@ const {cal} = require('../controllers/callController.js')
 
 //สร้าง Route
 
-router.get('/calculate', cal)
+router.get('/resData', cal)
 
 module.exports = router
