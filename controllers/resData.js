@@ -21,6 +21,12 @@ exports.resdata = (req, res, next) => {
         "firstname":"Scout",
         "lastname":"Lang",
         "department":"HR"
+       },
+       {
+       "id_emp":4,
+        "firstname":"Bob",
+        "lastname":"Smith",
+        "department":"Accounting"
        }
 
     ])

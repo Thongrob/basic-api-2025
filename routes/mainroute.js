@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const {cal} = require('../controllers/callController.js')
+const {resdata} = require('../controllers/resData.js')
 
 // //ทดสอบ route
 // router.get('/mainroute',(req, res) => {
@@ -11,6 +11,6 @@ const {cal} = require('../controllers/callController.js')
 
 //สร้าง Route
 
-router.get('/resData', cal)
+router.get('/resdata', resdata)
 
 module.exports = router
